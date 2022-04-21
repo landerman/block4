@@ -90,7 +90,7 @@ header {
     height: 40px;
     border: none;
     background-color: transparent;
-    background-image: url(/icons/icon_menu.svg);
+    background-image: url(icons/icon_menu.svg);
     cursor: pointer;
 }
 

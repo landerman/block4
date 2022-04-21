@@ -352,5 +352,9 @@ header {
         display: flex;
     }
 
+    .main{
+        padding-top: 42px;
+    }
+
 
 }

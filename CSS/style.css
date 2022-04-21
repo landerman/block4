@@ -274,7 +274,7 @@ header {
     position: absolute;
     width: 24px;
     height: 24px;
-    background-image: url(/icons/arrow.svg);
+    background-image: url(../icons/arrow.svg);
     margin-left: 0px;
     margin-top: -25px;
 }

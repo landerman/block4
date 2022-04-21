@@ -274,9 +274,9 @@ header {
     position: absolute;
     width: 24px;
     height: 24px;
-    background-image: url(../icons/arrow.svg);
+    background: url(../icons/arrow.svg) no-repeat;
     margin-left: 0px;
-    margin-top: -25px;
+    margin-top: -26px;
 }
 
 .content__input:checked~.checkbox .checkbox__image {

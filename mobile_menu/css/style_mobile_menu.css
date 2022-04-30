@@ -46,7 +46,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 27px 0 32px 0;
+    padding: 27px 0 32px 0;
 }
 
 .menu__header {

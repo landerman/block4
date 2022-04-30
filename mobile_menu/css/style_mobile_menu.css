@@ -59,9 +59,12 @@ html {
 
 .menu__header--left{
     display: flex;
+    align-items:center
 }
 
-
+.menu__button{
+    border:none;
+}
 .menu__exit {
 
     background: url(../icons/icon_exit.svg) no-repeat;
@@ -182,6 +185,7 @@ margin-right: 7px;
 .menu__link-item:focus{
     color: #7E7E82;
     outline: none; 
+    transition-duration: 0.5s;
     
 }
 
@@ -196,3 +200,8 @@ margin-right: 7px;
     border-radius: 0 4px 4px 0;
 }
 
+.menu__button:hover{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+}

@@ -90,7 +90,7 @@ header {
     height: 40px;
     border: none;
     background-color: transparent;
-    background-image: url(icons/icon_menu.svg);
+    background-image: url(../icons/icon_menu.svg);
     cursor: pointer;
 }
 
@@ -153,7 +153,7 @@ header {
 }
 
 .title__repair {
-    background: url(/icons/icon_repair.svg) no-repeat;
+    background: url(../icons/icon_repair.svg) no-repeat;
     background-size: 40px 40px;
     background-position: right;
     width: 174px;
@@ -161,7 +161,7 @@ header {
 }
 
 .title__checkstatus {
-    background: url(/icons/icon_checkstatus.svg) no-repeat;
+    background: url(../icons/icon_checkstatus.svg) no-repeat;
     background-size: 40px 40px;
     background-position: right;
     width: 168px;
@@ -192,6 +192,10 @@ header {
     list-style-type: none;
     overflow: auto;
 }
+.services__list::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    }
 
 .services__item-btn {
     background-color: transparent;
@@ -214,7 +218,6 @@ header {
     margin: 24px 16px 0 16px;
     margin-left: 0;
 }
-
 
 .content {
     display: flex;
@@ -274,9 +277,9 @@ header {
     position: absolute;
     width: 24px;
     height: 24px;
-    background-image: url(/icons/arrow.svg);
+    background: url(../icons/arrow.svg) no-repeat;
     margin-left: 0px;
-    margin-top: -25px;
+    margin-top: -26px;
 }
 
 .content__input:checked~.checkbox .checkbox__image {
@@ -350,6 +353,10 @@ header {
 
     .title__aside-menu {
         display: flex;
+    }
+
+    .main{
+        padding-top: 42px;
     }
 
 

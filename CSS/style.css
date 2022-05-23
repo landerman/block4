@@ -193,7 +193,6 @@ header {
     overflow: auto;
 }
 .services__list::-webkit-scrollbar{
-   
     width: 0;
     height: 0;
     }
